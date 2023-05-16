@@ -1,0 +1,147 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    max-width: 1280px;
+    margin: 0 auto;
+    background-color: #000000ad;
+    color: #ffffff;   
+}
+
+body.modo-escuro{
+    background: #212121;
+    color:#f5f5f5;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+header .logo{
+    width: 190px;
+    transition: 0.2s ease-in-out;
+}
+
+header .imagem-botao{
+    width: 40px;
+    transition: 0.2s ease-in-out;
+}
+
+
+header #botao-alterar-tema{
+    background: none;
+    border: none;
+}
+
+
+main .cartao-blanka:hover,
+main .cartao-chunli:hover,
+main .cartao-dhalsin:hover,
+main .cartao-ehonda:hover,
+main .cartao-guile:hover,
+main .cartao-ken:hover,
+main .cartao-ryu:hover,
+main .cartao-zangief:hover{
+    transform: scale(1.10);
+    cursor: pointer;
+}
+
+main{
+    padding: 25px;
+}
+
+
+main .listagem-habilidades{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+main .cartao-blanka,
+main .cartao-chunli,
+main .cartao-dhalsin,
+main .cartao-ehonda,
+main .cartao-guile,
+main .cartao-ken,
+main .cartao-ryu,
+main .cartao-zangief{
+    background-color: #9b9b9b;
+    width: 350px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    border-radius: 15px;
+    transition: 0.2s ease-in-out;    
+}
+
+
+main .cartao-blanka:hover,
+main .cartao-chunli:hover,
+main .cartao-dhalsin:hover,
+main .cartao-ehonda:hover,
+main .cartao-guile:hover,
+main .cartao-ken:hover,
+main .cartao-ryu:hover,
+main .cartao-zangief:hover{
+    background-color: #1a1919;
+}
+
+
+.modo-escuro .cartao-blanka,
+.modo-escuro .cartao-chunli,
+.modo-escuro .cartao-dhalsin,
+.modo-escuro .cartao-ehonda,
+.modo-escuro .cartao-guile,
+.modo-escuro .cartao-ken,
+.modo-escuro .cartao-ryu,
+.modo-escuro .cartao-zangief{
+    background-color: #777777;
+}
+
+main .cartao-blanka .informacoes,
+main .cartao-chunli .informacoes,
+main .cartao-dhalsin .informacoes,
+main .cartao-ehonda .informacoes,
+main .cartao-guile .informacoes,
+main .cartao-ken .informacoes,
+main .cartao-ryu .informacoes,
+main .cartao-zangief .informacoes{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #333333;
+    border-radius: 10px;
+}
+
+main .cartao-blanka .informacoes spam,
+main .cartao-chunli .informacoes spam,
+main .cartao-dhalsin .informacoes spam,
+main .cartao-ehonda .informacoes spam,
+main .cartao-guile .informacoes spam,
+main .cartao-ken .informacoes spam,
+main .cartao-ryu .informacoes spam,
+main .cartao-zangief .informacoes spam{
+    padding: 5px;
+    text-transform: uppercase;
+    font-size: 17px;
+}
+
+main .cartao-blanka .gif,
+main .cartao-chunli .gif,
+main .cartao-dhalsin .gif,
+main .cartao-ehonda .gif,
+main .cartao-guile .gif,
+main .cartao-ken .gif,
+main .cartao-ryu .gif,
+main .cartao-zangief .gif{
+    width: auto;
+}
+
+main .descricaomenu{
+    max-height: 80px;
+    overflow-y: scroll;
+    font-size: 14px;
+    padding-right: 10px;
+}
